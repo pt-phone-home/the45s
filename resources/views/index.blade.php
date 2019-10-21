@@ -55,7 +55,7 @@
     <div class="-mt-6 bg-g1">
         <div class="container mx-auto ">
             <div class="flex flex-row justify-center">
-                <a href="{{ route('contact') }}" class="font-fancy text-center px-16 py-4 text-lg text-orange-400 bg-gray-900 hover:text-gray-900 hover:bg-orange-400">Contact Us</a>
+                <a href="{{ route('contact') }}" class="w-15r text-center px-6 py-4 text-2xl text-orange-400 bg-gray-900 hover:text-gray-900 hover:bg-orange-400">Contact Us</a>
             </div>
         </div>
     </div>
