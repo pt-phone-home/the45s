@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail;
 use Illuminate\Http\Request;
+use App\Mail\WebsiteMessage;
+
 
 
 class PagesController extends Controller
@@ -74,13 +77,13 @@ class PagesController extends Controller
         $email->phone = $request['phone'];
         $email->message = $request['message'];
 
-        \Mail::to('info@kablekings.ie')->send(
+        \Mail::to('ptiernan@gmail.com')->send(
             new WebsiteMessage($email)
         );
         // \Mail::to('ptiernan@gmail.com')->send(
         //     new WebsiteMessage($email)
         // );
 
-        return redirect()->route('index')->with('success', 'Thanks for getting in touch. We will get back to you soon');
+        return redirect()->route('contact')->with('mail', 'Thanks for getting in touch. We will get back to you soon');
     }
 }

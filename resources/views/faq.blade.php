@@ -14,15 +14,15 @@
         Your Questions - Answered
     </h2>
 </div>
-<div class="bg-gray-600">
+<div class="bg-gray-100">
     <div class="container mx-auto flex pt-12">
         <div class="flex flex-col justify-center">
-            <h1 class="font-fancy text-gray-900 text-2xl mb-6">FAQ's</h1>
+            <h1 class="font-fancy text-orange-400 bg-gray-900 w-3/4 px-4 py-4 text-2xl mb-6">FAQ's</h1>
             <p class="mb-6">You can always <a href="{{ route('contact') }}">contact us</a> about your event, however you may find some of the questions and answers below useful for general information. </p>
          </div>
     </div>
 </div>
-<div class="bg-gray-600 pb-8">
+<div class="bg-gray-100 pb-8">
     <div class="container mx-auto border-2 border-gray-900">
         <div id="accordion">
             @component('components.faq', ['Qid' => 'faqBtn1', 'question' => 'Do you travel?', 'answer' => 'Of course! We love to travel! We do charge extra for the time depending on the location and you’ll need to cover transportation and accommodation for all band members. Ask us for a quote based on the specifics of your event. PS–if it’s within a couple hours, that’s included within our basic package at no added charge.', 'Aid' => 'faq1' ])
