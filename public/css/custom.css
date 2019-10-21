@@ -1,0 +1,212 @@
+html {
+    font-size: 100%;
+}
+
+@media (max-width: 1250px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1150px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 83%;
+    }
+}
+
+@media (max-width: 950px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 850px) {
+    html {
+        font-size: 78%;
+    }
+}
+
+@media (max-width: 750px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 650px) {
+    html {
+        font-size: 72%;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 67%;
+    }
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 64%;
+    }
+}
+
+@media (min-width: 1500px) {
+    html {
+        font-size: 105%;
+    }
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    background: url("/images/the 45s best band for any occasion in Ireland.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 32, 44, 0.6);
+}
+
+.wedding-hero {
+    position: relative;
+    background: url("/images/wedding band dublin the45s wedding music.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wedding-hero:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 32, 44, 0.6);
+}
+.about-hero {
+    position: relative;
+    background: url("/images/wedding band Ireland the45s about.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about-hero:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 32, 44, 0.6);
+}
+.songs-hero {
+    position: relative;
+    background: url("/images/wedding band dublin the 45s songs and services.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.songs-hero:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 32, 44, 0.6);
+}
+.faq-hero {
+    position: relative;
+    background: url("/images/wedding band Ireland the 45s questions and answers2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.faq-hero:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 32, 44, 0.6);
+}
+.contact-hero {
+    position: relative;
+    background: url("/images/wedding band Dublin the 45s contact us.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact-hero:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 32, 44, 0.6);
+}
+
+.bg-g1 {
+    background: url("/images/bg-g1.png");
+    background-repeat: repeat;
+}
+.bg-g2 {
+    background: url("/images/bg-g2.png");
+    background-repeat: repeat;
+}
+.scale {
+    transform: scale(1);
+    transition: 0.2s all ease-in-out;
+}
+.scale:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.nav-active {
+    border-bottom: 2px solid #f6ad55;
+}
+
+#navBtn {
+    cursor: pointer;
+}
+.faqBtn {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
