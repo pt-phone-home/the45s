@@ -17,3 +17,4 @@ Route::get('/weddings', 'PagesController@weddings')->name('weddings');
 Route::get('/songs-services', 'PagesController@songs_services')->name('songs-services');
 Route::get('/faq', 'PagesController@faq')->name('faq');
 Route::get('/conact', 'PagesController@contact')->name('contact');
+Route::post('/conact', 'PagesController@sendMail')->name('contact.send');
